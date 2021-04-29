@@ -4,9 +4,12 @@ with separate contents directory, used to serve inside the docker container
 
 to build the container (optional, not required to edit slides):
 
-  docker build --rm .
+```
+docker build --rm .
+```
 
 use `run.sh` to start the container with default binds:
 
-  ./run.sh
-
+```
+./run.sh
+```
