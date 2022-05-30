@@ -2,14 +2,21 @@
 clean [reveal.js](https://revealjs.com) from [hakimel/reveal.js](https://github.com/hakimel/reveal.js)
 with separate contents directory, used to serve inside the docker container
 
-to build the container (optional, not required to edit slides):
+to build the container:
 
 ```
-docker build --rm .
+make build
 ```
 
-use `run.sh` to start the container with default binds:
+to start:
 
 ```
-./run.sh
+make up
 ```
+
+to stop
+
+```
+make down
+```
+
